@@ -1,3 +1,9 @@
+npm i in root directory
+cd front_end_project
+npm i
+npm start
+
+
 # CHAMELEON (Website Project)
 
 The central repository for the Chameleon front_end_project (react.js) and back_end_project (node.js) .
