@@ -11,6 +11,7 @@ import Resources from "./pages/resources/resources";
 import Calendar from "./pages/calendar/calendar";
 import Main from "./pages/faq/main";
 import Report from "./pages/report/report";
+import Profile from "./pages/profile/profile";
 
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -34,6 +35,7 @@ function App() {
               <Route path="/resources" component={Resources} />
               <Route path="/calendar" component={Calendar} />
               <Route path="/faq" component={Main} />  
+              <Route path="/profile" component={Profile} />
 
             </Switch>
           </main>
@@ -44,3 +46,4 @@ function App() {
 }
 
 export default App;
+
