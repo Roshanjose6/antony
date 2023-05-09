@@ -1,6 +1,9 @@
 npm i in root directory
+
 cd front_end_project
+
 npm i
+
 npm start
 
 
